@@ -70,8 +70,25 @@ Activate:
 
 **STRICT ORDER:**
 ```
-Task → Classify → Activate Skills → Codex → OpenCode → Output
+Task → Classify → Activate Skills → Codex (think angles) → OpenCode → Output
 ```
+
+---
+
+## THINKING BEFORE EXECUTION (MANDATORY)
+
+Before executing code:
+
+1. **Generate 3 unique angles:**
+   - Angle 1: What's the counterintuitive insight?
+   - Angle 2: What's the data reveal?
+   - Angle 3: What's the hidden assumption?
+
+2. **Pick best angle**
+
+3. **THEN execute**
+
+**This prevents generic output**
 
 ---
 
