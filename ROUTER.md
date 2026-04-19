@@ -109,12 +109,28 @@ Speed with correction > delay without output
 
 ---
 
+---
+
+## SKILL-FIRST EXECUTION (MANDATORY)
+
+Before execution:
+
+1. **CLASSIFY** → detect task type (PPT/GTM/Sales/Data/Execution)
+2. **ACTIVATE** → load required skills (SKILL_ROUTER.md)
+3. **EXECUTE** → Codex → OpenCode → Output
+
+**NEVER execute without skill activation**
+
+---
+
 ## FINAL FLOW
 
 User Task
    ↓
-ROUTER.md (decision)
+ROUTER.md (decision + classification)
    ↓
-TYPE A → FAST_EXECUTION → OpenCode → Output
-TYPE B → AUTO_MODE → Full pipeline → Output
-TYPE C → Ask → Then execute
+SKILL_ROUTER.md (skill activation)
+   ↓
+TYPE A → Codex → OpenCode → Output
+TYPE B → SKILL_ACTIVATION → Codex → OpenCode → Output
+TYPE C → Ask → SKILL_ACTIVATION → Execute

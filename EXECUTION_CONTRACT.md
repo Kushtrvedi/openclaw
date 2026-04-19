@@ -91,6 +91,24 @@ If execution fails:
 
 ---
 
+---
+
+## RULE 9: PPT QUALITY VALIDATION
+
+For PPT/slide generation tasks, check:
+
+- [ ] Slide variety exists (no consecutive same type)
+- [ ] At least 40% slides have charts/tables/metrics
+- [ ] No bullet-heavy slides (max 4 lines, 6 words/line)
+- [ ] Visual hierarchy clear (primary/secondary/anchor)
+- [ ] Story flow logical (Problem → Insight → System → Proof → Scale → Ask)
+- [ ] Clean formatting applied
+
+If NOT:
+→ FAIL → rebuild
+
+---
+
 ## FINAL OUTPUT FORMAT
 
 RESULT:
