@@ -70,14 +70,14 @@ Activate:
 
 **STRICT ORDER:**
 ```
-Task → Classify → Activate Skills → Codex (think angles) → OpenCode → Output
+Task → Classify → Activate Skills → Generate 3 Angles → Pick Best → CONSULTING_ENGINE → ANTI_GENERIC_ENGINE → Codex → OpenCode → FINISHER → Output
 ```
 
 ---
 
-## THINKING BEFORE EXECUTION (MANDATORY)
+## THINKING PIPELINE (MANDATORY)
 
-Before executing code:
+Before execution, in order:
 
 1. **Generate 3 unique angles:**
    - Angle 1: What's the counterintuitive insight?
@@ -86,9 +86,21 @@ Before executing code:
 
 2. **Pick best angle**
 
-3. **THEN execute**
+3. **Apply CONSULTING_ENGINE:**
+   - Real problem identified?
+   - Non-obvious insight included?
+   - Stance taken?
+   - Recommendation clear?
 
-**This prevents generic output**
+4. **Apply ANTI_GENERIC_ENGINE:**
+   - No default phrases
+   - Specific data
+   - Insight layer
+   - Contrast thinking
+
+5. **THEN execute**
+
+**Complete thinking pipeline prevents generic output**
 
 ---
 
